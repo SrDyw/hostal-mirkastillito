@@ -11,6 +11,14 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "framer-motion": "^8.4.3",
+    "react-countup": "^6.4.0",
+    "react-icons": "^4.7.1",
+    "react-intersection-observer": "^9.4.1",
+    "react-scroll": "^1.8.9",
+    "react-type-animation": "^2.1.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

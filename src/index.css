@@ -1,13 +1,116 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{ 
+    --theme: black;
+    --theme-font: white;
+    --theme-font-header: #003c8a;
+    --theme-degrad1: #10003b;
+    --theme-degrad2: #000;
+
+    --color-test:#3b96ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    max-height: 100vh;
+    background-color: var(--theme);
+}
+h1, h2, h3, h4 {
+    color: var(--theme-font);
+}
+
+.column {
+    flex-direction: column;
+}
+
+.sub-header {
+    color: var(--theme-font-header);
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.custom-button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+
+    position: relative;
+}
+
+.gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text; /* Para compatibilidad con navegadores webkit */
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(0, 255, 213), #0000ff);
+
+}
+
+section {
+    min-height: 100vh;
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-title {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 900;
+    /* color: var(--theme-font); */
+
+    background-clip: text;
+    -webkit-background-clip: text; /* Para compatibilidad con navegadores webkit */
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(0, 255, 213), #0000ff);
+
+}
+
+.section-title::after {
+    content: '';
+    background: linear-gradient(90deg,rgb(0, 255, 213), blue);
+    width: 50%;
+    height: 10px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 10px;
 }
