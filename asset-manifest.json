@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/hostal-mirkastillito/static/css/main.153ba3bf.css",
-    "main.js": "/hostal-mirkastillito/static/js/main.d3419a9d.js",
-    "static/media/room_1.jpg": "/hostal-mirkastillito/static/media/room_1.49dd903196ba82f0aae5.jpg",
+    "main.js": "/hostal-mirkastillito/static/js/main.87d512b1.js",
     "static/media/bg_header.jpg": "/hostal-mirkastillito/static/media/bg_header.d0969d1cd4bc15f97d73.jpg",
     "static/media/bath_1.jpg": "/hostal-mirkastillito/static/media/bath_1.66515811bfcf55bba90a.jpg",
     "static/media/out_1.jpg": "/hostal-mirkastillito/static/media/out_1.10d7f46334bc7512e655.jpg",
-    "static/media/room_2.jpg": "/hostal-mirkastillito/static/media/room_2.52b6a319b1f71f641736.jpg",
     "static/media/out_2.jpg": "/hostal-mirkastillito/static/media/out_2.42ec081f24c7257f68ad.jpg",
     "static/media/old_plaza.jpg": "/hostal-mirkastillito/static/media/old_plaza.fb04bf9f3ff090b2e1d4.jpg",
     "static/media/out_3.jpg": "/hostal-mirkastillito/static/media/out_3.1ec42af51e2cdf02a7a3.jpg",
     "static/media/24hours.png": "/hostal-mirkastillito/static/media/24hours.3090fcdb6ea7b6acc874.png",
-    "static/media/room_3.jpg": "/hostal-mirkastillito/static/media/room_3.2cc7add7b7133175f6d2.jpg",
     "static/media/bath_3.jpg": "/hostal-mirkastillito/static/media/bath_3.3c39cb0f0bd5498849fd.jpg",
     "static/media/customer.png": "/hostal-mirkastillito/static/media/customer.1bda92510354c643480f.png",
     "static/media/bath_2.jpg": "/hostal-mirkastillito/static/media/bath_2.a21f2d4c2082115d72a3.jpg",
     "static/media/catedral.jpg": "/hostal-mirkastillito/static/media/catedral.351e805fb8abc890d9bb.jpg",
+    "static/media/room_2.jpg": "/hostal-mirkastillito/static/media/room_2.73a484f91ff2e6c77d95.jpg",
     "static/media/cuba_ubi_dark.png": "/hostal-mirkastillito/static/media/cuba_ubi_dark.bb1256baaf7de896fb1f.png",
     "static/media/cuba_ubi.png": "/hostal-mirkastillito/static/media/cuba_ubi.22a49c638d3a28a2abea.png",
     "static/media/calendar.png": "/hostal-mirkastillito/static/media/calendar.2b7b2e573174587567b7.png",
+    "static/media/room_1.jpg": "/hostal-mirkastillito/static/media/room_1.6292f04e03e045460caa.jpg",
+    "static/media/room_3.jpg": "/hostal-mirkastillito/static/media/room_3.6f069be305a485479745.jpg",
     "static/media/malecon.jpg": "/hostal-mirkastillito/static/media/malecon.64f3fe82437468a2bf93.jpg",
     "index.html": "/hostal-mirkastillito/index.html",
     "main.153ba3bf.css.map": "/hostal-mirkastillito/static/css/main.153ba3bf.css.map",
-    "main.d3419a9d.js.map": "/hostal-mirkastillito/static/js/main.d3419a9d.js.map"
+    "main.87d512b1.js.map": "/hostal-mirkastillito/static/js/main.87d512b1.js.map"
   },
   "entrypoints": [
     "static/css/main.153ba3bf.css",
-    "static/js/main.d3419a9d.js"
+    "static/js/main.87d512b1.js"
   ]
 }
