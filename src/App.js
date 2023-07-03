@@ -43,7 +43,7 @@ const App = () => {
   } 
 
   const openWhatsap = () => {
-    window.open("https://wa.me/+5352497742");
+    window.open("https://wa.me/52497742");
   }
 
   return (
