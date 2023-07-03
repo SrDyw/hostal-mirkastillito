@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hostal-mirkastillito/static/css/main.4e7920f4.css",
+    "main.css": "/hostal-mirkastillito/static/css/main.44a947a4.css",
     "main.js": "/hostal-mirkastillito/static/js/main.5ba0c968.js",
     "static/media/bg_header.jpg": "/hostal-mirkastillito/static/media/bg_header.0fa3f32123cfcfa2886e.jpg",
     "static/media/old_plaza.jpg": "/hostal-mirkastillito/static/media/old_plaza.fb04bf9f3ff090b2e1d4.jpg",
@@ -21,11 +21,11 @@
     "static/media/malecon.jpg": "/hostal-mirkastillito/static/media/malecon.64f3fe82437468a2bf93.jpg",
     "static/media/bath_3.jpg": "/hostal-mirkastillito/static/media/bath_3.ac654dafc39dc71633fa.jpg",
     "index.html": "/hostal-mirkastillito/index.html",
-    "main.4e7920f4.css.map": "/hostal-mirkastillito/static/css/main.4e7920f4.css.map",
+    "main.44a947a4.css.map": "/hostal-mirkastillito/static/css/main.44a947a4.css.map",
     "main.5ba0c968.js.map": "/hostal-mirkastillito/static/js/main.5ba0c968.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e7920f4.css",
+    "static/css/main.44a947a4.css",
     "static/js/main.5ba0c968.js"
   ]
 }
