@@ -33,29 +33,42 @@ export default function Ubication() {
       >
         <img src={theme == "light" ? cuba_dark : cuba} alt="" />
       </motion.div>
-      <motion.div
-        className="ubitacion_places"
-        whileInView={"show"}
-        initial="hidden"
-        viewport={{ once: false, amount: 0 }}
-        variants={fadeIn("up")}
-      >
-        <h2>Sitios cernanos de interés</h2>
+      <motion.div className="ubitacion_places">
+        <motion.h2
+          whileInView={"show"}
+          initial="hidden"
+          viewport={{ once: false, amount: 0 }}
+          variants={fadeIn("up")}
+        >
+          Sitios cernanos de interés
+        </motion.h2>
         <PlaceCard
           image={oldPlace}
-          desc={{ title: "Plaza Vieja", info: "De las más antiguas de La Habana Vieja rodeada de hermosas edificaciones de estilo colonial" }}
+          desc={{
+            title: "Plaza Vieja",
+            info: "De las más antiguas de La Habana Vieja rodeada de hermosas edificaciones de estilo colonial",
+          }}
         />
         <PlaceCard
           image={catedral}
-          desc={{ title: "Catedral", info: "Es una de las más impresionantes de toda Cuba y cuenta con una arquitectura barroca espectacular." }}
+          desc={{
+            title: "Catedral",
+            info: "Es una de las más impresionantes de toda Cuba y cuenta con una arquitectura barroca espectacular.",
+          }}
         />
         <PlaceCard
           image={malecon}
-          desc={{ title: "Malecón", info: "Ideal para caminar, tomar fotografías y disfrutar de una vista impresionante del mar." }}
+          desc={{
+            title: "Malecón",
+            info: "Ideal para caminar, tomar fotografías y disfrutar de una vista impresionante del mar.",
+          }}
         />
         <PlaceCard
           image={capitolio}
-          desc={{ title: "Capitolio", info: "Edificio emblámatico de La Habana considerado uno de los más importantes de Cuba" }}
+          desc={{
+            title: "Capitolio",
+            info: "Edificio emblámatico de La Habana considerado uno de los más importantes de Cuba",
+          }}
         />
       </motion.div>
     </section>

@@ -114,3 +114,21 @@ section {
     bottom: 10px;
     border-radius: 10px;
 }
+
+
+.w_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(53, 255, 53);
+    border-radius: 50%;
+    z-index: 100;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.w_button_logo{
+    font-size: 50px;
+    color: white;
+}

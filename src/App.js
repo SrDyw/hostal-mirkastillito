@@ -5,6 +5,7 @@ import { useEffect, useContext } from "react";
 import { AppContext } from "./components/AppContext";
 import Ubication from "./components/Ubication";
 import AboutUs from "./components/AboutUs";
+import { FaWhatsapp } from "react-icons/fa";
 
 const App = () => {
   const { theme, setTheme, len, setLen } = useContext(AppContext);
@@ -41,12 +42,19 @@ const App = () => {
     console.log("Lenguage changed to", len);
   } 
 
+  const openWhatsap = () => {
+    window.open("https://wa.me/+5352497742");
+  }
+
   return (
     <div id="app_content">
       <Header />
       <Galery />
       <Ubication/>
       <AboutUs/>
+      <div className="w_button flex-center" onClick={() => openWhatsap()}>
+        <FaWhatsapp className="w_button_logo"/>
+      </div>
     </div>
   );
 };
