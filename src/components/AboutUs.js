@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import AboutCard from "./subComponents/AboutCard";
 import Logo from "./subComponents/Logo";
 import "./about.css";
@@ -9,19 +9,21 @@ import hours from '../assets/24hours.png';
 import customer from '../assets/customer.png';
 import calendar from '../assets/calendar.png';
 import Logo2 from "./subComponents/Logo2";
+import { AppContext } from "./AppContext";
 
 export default function AboutUs() {
+  const {len} = useContext(AppContext);
   return (
     <section id="about_us">
-      <h2 className="section-title flex-center">Acerca de Nostoros</h2>
+      <h2 className="section-title flex-center">{len == 'es' ? "Acerca de nosotros" : "About us"}</h2>
       <div className="header__logo flex-center">
-        <Logo2 className="logo"></Logo2>
+        <Logo2 className="logo_about_us"></Logo2>
       </div>
       <h2 className="about_us_subheader">Hostal Mirkastillito</h2>
       <div className="about_card_container content">
-        <AboutCard image={calendar} desc={'+10 años de serivicio'}/>
-        <AboutCard image={customer} desc={'+1000 clientes satisfechos'} direction="to-left"/>
-        <AboutCard image={hours} desc={'Servicio las 24 horas de día'}/>
+        <AboutCard image={calendar} desc={len == 'es' ? '+10 años de servicio' : '+10 year of service'}/>
+        <AboutCard image={customer} desc={len == 'es' ? '+1000 clientes satisfechos' : '+1000 satisfied customers'} direction="to-left"/>
+        <AboutCard image={hours} desc={len == 'es' ? 'Servicio las 24 horas de día' : '24-hour service'}/>
       </div>
     </section>
   );

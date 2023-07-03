@@ -12,17 +12,17 @@ import oldPlace from "../assets/old_plaza.jpg";
 import catedral from "../assets/catedral.jpg";
 import malecon from "../assets/malecon.jpg";
 import capitolio from "../assets/capitolio.jpg";
+import bodeguita from "../assets/bodeguita.jpg";
+import { getText } from "../libs/pageText";
 
 export default function Ubication() {
-  const { theme } = useContext(AppContext);
+  const { theme, len } = useContext(AppContext);
 
   return (
     <section id="ubication" className="content">
-      <h2 className="section-title flex-center">Ubicación</h2>
+      <h2 className="section-title flex-center">{len == 'es'  ? "Ubicación" : "Ubication"}</h2>
       <p className="sub-header">
-        El Hostal Mirkastillito se encuentra ubicado en el corazón de la capital
-        de Cuba, La Habana, de forma que usted podrá visitar sitios de gran
-        interés turístico de forma rápida y sencilla
+        {getText("Ubication", len)}
       </p>
       <motion.div
         className="ubication__image"
@@ -40,34 +40,41 @@ export default function Ubication() {
           viewport={{ once: false, amount: 0 }}
           variants={fadeIn("up")}
         >
-          Sitios cernanos de interés
+          {len == 'es' ? "Sitios cernanos de interés" : "Nearby attractions"}
         </motion.h2>
         <PlaceCard
           image={oldPlace}
           desc={{
             title: "Plaza Vieja",
-            info: "De las más antiguas de La Habana Vieja rodeada de hermosas edificaciones de estilo colonial",
+            info: getText("Plaza", len),
           }}
         />
         <PlaceCard
           image={catedral}
           desc={{
             title: "Catedral",
-            info: "Es una de las más impresionantes de toda Cuba y cuenta con una arquitectura barroca espectacular.",
+            info: getText("Catedral", len),
           }}
         />
         <PlaceCard
           image={malecon}
           desc={{
             title: "Malecón",
-            info: "Ideal para caminar, tomar fotografías y disfrutar de una vista impresionante del mar.",
+            info: getText("Malecon", len),
           }}
         />
         <PlaceCard
           image={capitolio}
           desc={{
             title: "Capitolio",
-            info: "Edificio emblámatico de La Habana considerado uno de los más importantes de Cuba",
+            info: getText("Capitolio", len),
+          }}
+        />
+        <PlaceCard
+          image={bodeguita}
+          desc={{
+            title: "Bodeguita del Medio",
+            info: getText("Bodeguita", len),
           }}
         />
       </motion.div>

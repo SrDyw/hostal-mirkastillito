@@ -20,6 +20,8 @@
 }    
 .about_card {
     width: 100%;
+    max-width: 600px;
+
     height: 150px;
     background: linear-gradient(45deg, #00eeff, #0011ff);
     border-radius: 10px;
@@ -51,7 +53,7 @@
     position: relative;
 }
 .about_card_image img{
-    height: 80%;
+    height: 60%;
     object-fit: cover;
     position: absolute;
 
@@ -73,4 +75,18 @@
     top: 50%;
     transform: translate(-50%, -50%) scale(0.99, 0.98);
     border-radius: 10px;
+}
+
+.logo_about_us {
+    transform: scale(0.3) translateX(-120%);
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+@media (min-width:760px) {
+
 }

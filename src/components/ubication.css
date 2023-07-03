@@ -9,6 +9,7 @@
 .ubication__image {
     position: relative;
     width: 100%;
+    max-width: 700px;
     margin-top: 20px;
 }
 
@@ -25,6 +26,7 @@
     align-items: center;
     margin-top: 50px;
     flex-direction: column;
+    margin-bottom: 50px;
     /* gap: 20px; */
 }
 
@@ -55,6 +57,7 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
+    border-radius: 10px;
 
 }
 .place_card_desc {
@@ -68,6 +71,7 @@
 
 .ubitacion_places h2{
     color: var(--theme-font-header);
+    margin-bottom: 30px;
 }
 
 .place_card_desc h3{
@@ -76,4 +80,20 @@
 
 .place_card_desc p{
     color: white;
+}
+
+@media (min-width: 760px) {
+    .ubitacion_places {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .place_card {
+        width: 45%;
+    }
+
+    #ubication .sub-header{
+        width: 80%;
+    }
 }

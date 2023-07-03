@@ -12,7 +12,7 @@ export default function PlaceCard({ image, desc }) {
       variants={fadeIn("up")}
     >
       <div className="place_card_image">
-        <img src={image} alt="" />
+        <img src={image} alt={desc.title} />
       </div>
       <div className="place_card_desc content">
         <h3>{desc.title}</h3>

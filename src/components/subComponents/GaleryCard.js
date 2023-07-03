@@ -13,11 +13,11 @@ export default function GaleryCard({ images, delay, card_info }) {
       viewport={{ once: false, amount: 0 }}
       initial="hidden"
     >
-      <ImageCard delay={delay} image={images} />
+      <ImageCard delay={delay} image={images} desc={card_info.title}/>
       <div className="galery_card_info content">
         <h2>{card_info.title}</h2>
         {card_info.items.map((item, key) => (
-          <h3><span><FaStar/></span>{item}</h3>
+          <h3 key={key}><span><FaStar/></span>{item}</h3>
         ))}
       </div>
     </motion.div>

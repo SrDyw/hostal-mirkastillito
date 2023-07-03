@@ -1,43 +1,26 @@
 const spanish_text = {
-    "Home": "Inicio",
-    "About": "Acerca",
-    "Skills": "Habilidades",
-    "Projects": "Proyecto",
-    "Games": "Videojuegos",
-    "App" : "Aplicaciones",
-    "Hello": "¡Hola!",
-    "Programmer": "Soy Programador",
-    "WelcomeInfo": '"Como programador estaré encatado de darle una solucion informatica sujeta a la peticion de usted como cliente"',
-    "BtnExp" : "Expolar",
-    "BtnCV": "Ver CV",
-    "AboutMe": "Ejerzo como programador desde finales de 2019 con varios proyectos desarrollados. Actualemnte  me encuentro estudiando en La Universidad de Ciencias Informáticas de Cuba para una  formación más completa y profesional como ingeniero informático.",
-    "AboutMe2": "Me gusta la realizacion de paginas web o videojuegos, si necesitas algunos de estos servicios no dudes en contactarme y estaré encantado de atender su solicitud",
-    "Honosume": "Juego mas reciente desarrollado en unity",
-    "DywUni": "Portal web donde enumero todos mis juegos",
-    "PersonalPort": "Portal web donde muestro mis proyectos",
-    "Mirkastillito": "Portal de negocio para el hostal Mirkastillito"
-
-
+    "Hero": "¡Reserva ahora y vive una experiencia inolvidable en la capital de Cuba!",
+    "SRoom" : "Ver Habitación",
+    "GSubHeader": "En el Hostal Mirkastillito, podrás disfrutar de una estancia confortable y tranquila.",
+    "Ubication" : "El Hostal Mirkastillito se encuentra ubicado en el CENTRO HISTORICO DE LA HABANA VIEJA DE CUBA. De forma que usted podrá visitar sitios de gran interés turístico de forma rápida y sencilla",
+    "Plaza": "De las más antiguas de La Habana Vieja rodeada de hermosas edificaciones de estilo colonial.",
+    "Catedral": "La iglesia mas impresionante de toda Cuba y contando con una arquitectura barroca espectacular.",
+    "Malecon" : "Ideal para caminar, tomar fotografías y disfrutar de una vista impresionante del mar.",
+    "Capitolio" : "Edificio emblámatico de La Habana considerado uno de los más importantes de Cuba.",
+    "Bodeguita" : "Restaurante para disfrutar de la comida tradicional criolla."
 }
 
 const english_text = {
-    "Home" : "Home",
-    "About": "About",
-    "Skills" : "Skills",
-    "Projects" : "Projects",
-    "Games" : "Videogames",
-    "App" : "Applications",
-    "Hello": "Hey there!",
-    "Programmer": "I'm Programmer",
-    "WelcomeInfo": '"As a programmer I will be happy to give you a computer solution subject to your request as a client"',
-    "BtnExp" : "Explore",
-    "BtnCV": "See CV",
-    "AboutMe": "I have been working as a programmer since late 2019, with several projects developed. Currently, I am studying at the University of Computer Sciences of Cuba for a more comprehensive and professional education as a computer engineer.",
-    "AboutMe2": "I really like make Website and the games, if you need some service about this contact me and I will service",
-    "Honosume": "Most recently game create in Unity",
-    "DywUni": "Portal web where I list all my games",
-    "PersonalPort": "Portal web where I show my projects",
-    "Mirkastillito": "Bussines portal for Mirkastillito rent room"
+    "Hero": "Book now and live an unforgettable experience in the capital of Cuba!",
+    "SRoom" : "View Room",
+    "GSubHeader": "In Hostal Mirkastillito, you can enjoy a comfortable and peaceful stay.",
+    "Ubication" : "Hostal Mirkastillito is located in the HISTORIC CENTER OF OLD HAVANA, CUBA, so you can easily and quickly visit many tourist attractions.",
+    "Plaza": "One of the oldest in Old Havana surrounded by beautiful colonial-style buildings.",
+    "Catedral": "The most impressive church in all of Cuba, boasting spectacular Baroque architecture.",
+    "Malecon" : "Ideal for walking, taking photographs, and enjoying a breathtaking view of the sea.",
+    "Capitolio" : "An emblematic building in Havana considered one of the most important in Cuba.",
+    "Bodeguita" : "A restaurant to enjoy traditional Creole cuisine."
+
 }
 
 export const getText = (key, len) => {

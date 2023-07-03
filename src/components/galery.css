@@ -112,3 +112,14 @@
 .images__index span.active {
     background-color: white;
 }
+
+@media (min-width:760px){
+    .galery_card {
+        max-width: 650px;
+        width: 30%;
+        height: 350px;
+    }
+    .galery__photos {
+        gap: 20px;
+    }
+}

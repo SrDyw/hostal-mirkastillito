@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaHome, FaStarHalfAlt } from "react-icons/fa";
 import "./header.css";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Logo from "./subComponents/Logo";
+import { getText } from "../libs/pageText";
+import { AppContext } from "./AppContext";
 // import {ReactComponent as Logo} from '../assets/m_crown_fill.svg';
 
 export default function Header() {
+  const {len} = useContext(AppContext);
   return (
     <section className="header flex-center">
       <div className="header__logo flex-center">
@@ -25,11 +28,11 @@ export default function Header() {
         </h1>
         <div className="header__items">
           <h2>
-          ¡Reserva ahora y vive una experiencia inolvidable en la capital de Cuba!
+          {getText("Hero", len)}
           </h2>
           <div className="header__input flex-center">
             <a href="#galery" className="custom-button">
-              Ver Habitación
+              {getText("SRoom", len)}
               <span>
                 <FaHome />
               </span>

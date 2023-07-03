@@ -34,7 +34,7 @@ export default function ImageCard({ image, desc, delay = 0 }) {
     <div className="image_card">
       <div className="images_container">
         {image.map((element, key) => (
-          <img src={element} key={key} alt="" />
+          <img src={element} key={key} alt={desc} />
         ))}
       </div>
       <div className="images__index flex-center">

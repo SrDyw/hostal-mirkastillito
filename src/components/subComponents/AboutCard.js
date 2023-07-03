@@ -15,7 +15,7 @@ export default function AboutCard({ image, desc, direction = "to-right" }) {
         <div className="about_card_content">
           <p className="flex-center gradient-text">{desc}</p>
           <div className="about_card_image">
-            <img src={image} alt="" />
+            <img src={image} alt={desc} />
           </div>
         </div>
       )}
