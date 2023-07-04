@@ -31,10 +31,10 @@ const App = () => {
 
     if (!loaded) {
       loaded = true;
-      const contact_us = document.querySelector(".contact_us");
-      setTimeout(() => {
-        contact_us.classList.add("hidden");
-      }, 2800);
+      // const contact_us = document.querySelector(".contact_us");
+      // setTimeout(() => {
+      //   contact_us.classList.add("hidden");
+      // }, 2800);
     }
   }, []);
 
@@ -60,10 +60,11 @@ const App = () => {
   };
 
   const ChangeLen = (len) => {
-    setLen(len);
-    document.documentElement.lang = len;
+    const lengToChange = len.split('-')[0].toLowerCase();
+    setLen(lengToChange);
+    document.documentElement.lang = lengToChange;
 
-    console.log("Lenguage changed to", len);
+    console.log("Lenguage changed to", lengToChange);
   };
 
   const openWhatsap = () => {
