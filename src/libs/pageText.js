@@ -7,7 +7,8 @@ const spanish_text = {
     "Catedral": "La iglesia mas impresionante de toda Cuba y contando con una arquitectura barroca espectacular.",
     "Malecon" : "Ideal para caminar, tomar fotografías y disfrutar de una vista impresionante del mar.",
     "Capitolio" : "Edificio emblámatico de La Habana considerado uno de los más importantes de Cuba.",
-    "Bodeguita" : "Restaurante para disfrutar de la comida tradicional criolla."
+    "Bodeguita" : "Restaurante para disfrutar de la comida tradicional criolla.",
+    "EndMessage" : "Pongáse en contactos con nosotros en este mismo instante y reserve para pasar un momento agradable en el Hostal Mirkastillito"
 }
 
 const english_text = {
@@ -19,8 +20,8 @@ const english_text = {
     "Catedral": "The most impressive church in all of Cuba, boasting spectacular Baroque architecture.",
     "Malecon" : "Ideal for walking, taking photographs, and enjoying a breathtaking view of the sea.",
     "Capitolio" : "An emblematic building in Havana considered one of the most important in Cuba.",
-    "Bodeguita" : "A restaurant to enjoy traditional Creole cuisine."
-
+    "Bodeguita" : "A restaurant to enjoy traditional Creole cuisine.",
+    "EndMessage" : "Contact us right now and book to have a pleasant time at Hostal Mirkastillito."
 }
 
 export const getText = (key, len) => {

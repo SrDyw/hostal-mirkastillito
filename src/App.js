@@ -6,10 +6,16 @@ import { AppContext } from "./components/AppContext";
 import Ubication from "./components/Ubication";
 import AboutUs from "./components/AboutUs";
 import { FaWhatsapp } from "react-icons/fa";
+import EndSection from "./components/EndSection";
+import Navigator from "./components/Navigator";
 
 const App = () => {
   const { theme, setTheme, len, setLen } = useContext(AppContext);
+
+  let loaded = false;
+
   useEffect(() => {
+    // console.log(contact_us);
     ChangeLen(navigator.language);
 
     if (
@@ -21,6 +27,14 @@ const App = () => {
     } else {
       setTheme("light");
       ChangeColor('light');
+    }
+
+    if(!loaded) {
+      loaded = true;
+      const contact_us = document.querySelector('.contact_us');
+      setTimeout(() => {
+        contact_us.classList.add('hidden');
+      }, 2800);
     }
   }, []);
 
@@ -48,12 +62,17 @@ const App = () => {
 
   return (
     <div id="app_content">
+      {/* <Navigator/> */}
       <Header />
       <Galery />
       <Ubication/>
       <AboutUs/>
+      <EndSection/>
       <div className="w_button flex-center" onClick={() => openWhatsap()}>
         <FaWhatsapp className="w_button_logo"/>
+        <div className="contact_us">
+          <p>Contáctanos</p>
+        </div>
       </div>
     </div>
   );

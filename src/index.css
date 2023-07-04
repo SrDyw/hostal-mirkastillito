@@ -21,6 +21,15 @@ html{
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    background-color: var(--theme);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3a3afd;
+}
+
 body {
     max-height: 100vh;
     background-color: var(--theme);
@@ -52,7 +61,14 @@ h1, h2, h3, h4 {
     font-weight: bold;
 
     position: relative;
+    transition: .2s;
+    color: #3a3afd;
 }
+.custom-button:hover {
+    transform: scale(1.1);
+    background-color: #2d2dff;
+    color: white;
+} 
 
 .gradient-text {
     background-clip: text;
@@ -126,9 +142,79 @@ section {
     border-radius: 50%;
     z-index: 100;
     box-shadow: 0px 0px 20px #000;
+    cursor: pointer;
+
+    animation: float 3s ease-in-out infinite;
+    transition: .2s;
 }
 
 .w_button_logo{
     font-size: 40px;
     color: white;
 }
+
+.w_button:hover {
+    border: 2px solid white;
+    transition: .2s;
+}
+
+.contact_us {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px #000;
+    background-color: white;
+    border-radius: 20px;
+    animation: animate 3s ease;
+}
+
+
+.hidden {
+    display: none;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0);
+    }
+    15%{
+        transform: scale(1.25);
+    }
+    25% {
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+.contact_us::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    background-color: white;
+}
+
