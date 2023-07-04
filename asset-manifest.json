@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.css": "/hostal-mirkastillito/static/css/main.44a947a4.css",
-    "main.js": "/hostal-mirkastillito/static/js/main.5ba0c968.js",
-    "static/media/bg_header.jpg": "/hostal-mirkastillito/static/media/bg_header.0fa3f32123cfcfa2886e.jpg",
-    "static/media/old_plaza.jpg": "/hostal-mirkastillito/static/media/old_plaza.fb04bf9f3ff090b2e1d4.jpg",
+    "main.css": "/hostal-mirkastillito/static/css/main.5326d703.css",
+    "main.js": "/hostal-mirkastillito/static/js/main.b5cdde05.js",
     "static/media/24hours.png": "/hostal-mirkastillito/static/media/24hours.3090fcdb6ea7b6acc874.png",
     "static/media/customer.png": "/hostal-mirkastillito/static/media/customer.1bda92510354c643480f.png",
-    "static/media/catedral.jpg": "/hostal-mirkastillito/static/media/catedral.351e805fb8abc890d9bb.jpg",
+    "static/media/bg_header.jpg": "/hostal-mirkastillito/static/media/bg_header.950da3e8b5257a5fb16e.jpg",
     "static/media/room_2.jpg": "/hostal-mirkastillito/static/media/room_2.73a484f91ff2e6c77d95.jpg",
     "static/media/cuba_ubi_dark.png": "/hostal-mirkastillito/static/media/cuba_ubi_dark.bb1256baaf7de896fb1f.png",
     "static/media/out_2.jpg": "/hostal-mirkastillito/static/media/out_2.b92ee8587371a940ca6c.jpg",
@@ -18,14 +16,13 @@
     "static/media/bath_1.jpg": "/hostal-mirkastillito/static/media/bath_1.f30ec446476170f8c4fb.jpg",
     "static/media/out_1.jpg": "/hostal-mirkastillito/static/media/out_1.c65058047bc29657d8be.jpg",
     "static/media/room_3.jpg": "/hostal-mirkastillito/static/media/room_3.6f069be305a485479745.jpg",
-    "static/media/malecon.jpg": "/hostal-mirkastillito/static/media/malecon.64f3fe82437468a2bf93.jpg",
     "static/media/bath_3.jpg": "/hostal-mirkastillito/static/media/bath_3.ac654dafc39dc71633fa.jpg",
     "index.html": "/hostal-mirkastillito/index.html",
-    "main.44a947a4.css.map": "/hostal-mirkastillito/static/css/main.44a947a4.css.map",
-    "main.5ba0c968.js.map": "/hostal-mirkastillito/static/js/main.5ba0c968.js.map"
+    "main.5326d703.css.map": "/hostal-mirkastillito/static/css/main.5326d703.css.map",
+    "main.b5cdde05.js.map": "/hostal-mirkastillito/static/js/main.b5cdde05.js.map"
   },
   "entrypoints": [
-    "static/css/main.44a947a4.css",
-    "static/js/main.5ba0c968.js"
+    "static/css/main.5326d703.css",
+    "static/js/main.b5cdde05.js"
   ]
 }
