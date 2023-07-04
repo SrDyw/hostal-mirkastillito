@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import { FaStar } from "react-icons/fa";
 
-export default function GaleryCard({ images, delay, card_info }) {
+export default function GaleryCard({ images, delay, card_info, card_index }) {
+  console.log("key",card_index);
   return (
     <motion.div
       className="galery_card content"
@@ -13,7 +14,7 @@ export default function GaleryCard({ images, delay, card_info }) {
       viewport={{ once: false, amount: 0 }}
       initial="hidden"
     >
-      <ImageCard delay={delay} image={images} desc={card_info.title}/>
+      <ImageCard delay={delay} image={images} desc={card_info.title} card_index={card_index}/>
       <div className="galery_card_info content">
         <h2>{card_info.title}</h2>
         {card_info.items.map((item, key) => (

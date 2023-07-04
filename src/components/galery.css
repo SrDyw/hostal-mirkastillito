@@ -84,7 +84,7 @@
 
 
 .image_card .images_container:nth-child(1) {
-    margin-left: calc(-100% * var(--i));
+    /* margin-left: calc(-100% * var(--i)); */
     transition: .5s;
 }
 

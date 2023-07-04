@@ -2,11 +2,11 @@ const spanish_text = {
     "Hero": "¡Reserva ahora y vive una experiencia inolvidable en la capital de Cuba!",
     "SRoom" : "Ver Habitación",
     "GSubHeader": "En el Hostal Mirkastillito, podrás disfrutar de una estancia confortable y tranquila.",
-    "Ubication" : "El Hostal Mirkastillito se encuentra ubicado en el CENTRO HISTORICO DE LA HABANA VIEJA DE CUBA. De forma que usted podrá visitar sitios de gran interés turístico de forma rápida y sencilla",
+    "Ubication" : "El Hostal Mirkastillito se encuentra ubicado en el CENTRO HISTÓRICO DE LA HABANA VIEJA DE CUBA. De forma que usted podrá visitar sitios de gran interés turístico de forma rápida y sencilla",
     "Plaza": "De las más antiguas de La Habana Vieja rodeada de hermosas edificaciones de estilo colonial.",
-    "Catedral": "La iglesia mas impresionante de toda Cuba y contando con una arquitectura barroca espectacular.",
+    "Catedral": "La iglesia más impresionante de toda Cuba y contando con una arquitectura barroca espectacular.",
     "Malecon" : "Ideal para caminar, tomar fotografías y disfrutar de una vista impresionante del mar.",
-    "Capitolio" : "Edificio emblámatico de La Habana considerado uno de los más importantes de Cuba.",
+    "Capitolio" : "Edificio emblemático de La Habana considerado uno de los más importantes de Cuba.",
     "Bodeguita" : "Restaurante para disfrutar de la comida tradicional criolla.",
     "EndMessage" : "Pongáse en contactos con nosotros en este mismo instante y reserve para pasar un momento agradable en el Hostal Mirkastillito"
 }

@@ -31,22 +31,25 @@ export default function Galery() {
       </p>
       <div className="galery__photos">
         <GaleryCard
-          images={[RM1, RM2, RM3]}
+          images={[RM1, RM2]}
           delay={0.2}
           card_info={{
             title: len == 'es' ? "Habitación" : "Room",
-            items: [len == 'es' ? "Aire Acondicionado" : "Air conditioning", len == 'es' ? "Concina Privada" : "Private Cook"],
+            items: [len == 'es' ? "Aire Acondicionado" : "Air conditioning", len == 'es' ? "Cocina Privada" : "Private Cook"],
           }}
+          card_index={0}
         />
         <GaleryCard
           images={[BT1, BT2, BT3]}
           delay={0.3}
-          card_info={{ title: len == 'es' ? "Baño" : "Bathroom", items: [len == 'es' ? "Agua Frio-Caliente" : "Cold-Hot Water"] }}
+          card_info={{ title: len == 'es' ? "Baño" : "Bathroom", items: [len == 'es' ? "Agua Fría y Caliente" : "Cold-Hot Water"] }}
+          card_index={1}
         />
         <GaleryCard
           images={[OT1, OT2, OT3]}
           delay={0.4}
           card_info={{ title: len == 'es' ? "Terraza" : "Terrace", items: [len == 'es'  ?"Columpio" : "Swing", len == 'es' ? "Vista" : "Good Views"] }}
+          card_index={2}
         />
       </div>
     </section>

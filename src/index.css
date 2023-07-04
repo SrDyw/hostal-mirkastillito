@@ -63,11 +63,13 @@ h1, h2, h3, h4 {
     position: relative;
     transition: .2s;
     color: #3a3afd;
+    box-shadow: 0 0 10px #001aff67;
 }
 .custom-button:hover {
     transform: scale(1.1);
     background-color: #2d2dff;
     color: white;
+    
 } 
 
 .gradient-text {

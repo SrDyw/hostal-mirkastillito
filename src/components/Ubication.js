@@ -40,7 +40,7 @@ export default function Ubication() {
           viewport={{ once: false, amount: 0 }}
           variants={fadeIn("up")}
         >
-          {len == 'es' ? "Sitios cernanos de interés" : "Nearby attractions"}
+          {len == 'es' ? "Sitios cercanos de interés" : "Nearby attractions"}
         </motion.h2>
         <PlaceCard
           image={oldPlace}
