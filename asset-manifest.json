@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hostal-mirkastillito/static/css/main.78a20bff.css",
-    "main.js": "/hostal-mirkastillito/static/js/main.7bf1a5ab.js",
+    "main.js": "/hostal-mirkastillito/static/js/main.300ceb1e.js",
     "static/media/24hours.png": "/hostal-mirkastillito/static/media/24hours.3090fcdb6ea7b6acc874.png",
     "static/media/customer.png": "/hostal-mirkastillito/static/media/customer.1bda92510354c643480f.png",
     "static/media/bg_header.jpg": "/hostal-mirkastillito/static/media/bg_header.950da3e8b5257a5fb16e.jpg",
@@ -19,10 +19,10 @@
     "static/media/bath_3.jpg": "/hostal-mirkastillito/static/media/bath_3.ac654dafc39dc71633fa.jpg",
     "index.html": "/hostal-mirkastillito/index.html",
     "main.78a20bff.css.map": "/hostal-mirkastillito/static/css/main.78a20bff.css.map",
-    "main.7bf1a5ab.js.map": "/hostal-mirkastillito/static/js/main.7bf1a5ab.js.map"
+    "main.300ceb1e.js.map": "/hostal-mirkastillito/static/js/main.300ceb1e.js.map"
   },
   "entrypoints": [
     "static/css/main.78a20bff.css",
-    "static/js/main.7bf1a5ab.js"
+    "static/js/main.300ceb1e.js"
   ]
 }
