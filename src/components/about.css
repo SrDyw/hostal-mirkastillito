@@ -78,7 +78,7 @@
 }
 
 .logo_about_us {
-    transform: scale(0.3) translateX(-120%);
+    transform: scale(0.3) translateX(-120%) translateY(250px);
     position: absolute;
     left: 0;
     display: flex;

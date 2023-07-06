@@ -6,6 +6,7 @@ import { fadeIn } from "../variants";
 import Logo from "./subComponents/Logo";
 import { getText } from "../libs/pageText";
 import { AppContext } from "./AppContext";
+import Logo3 from "./subComponents/Logo3";
 // import {ReactComponent as Logo} from '../assets/m_crown_fill.svg';
 
 export default function Header() {
@@ -13,7 +14,7 @@ export default function Header() {
   return (
     <section className="header flex-center">
       <div className="header__logo flex-center">
-        <Logo className="logo" ></Logo>
+        <Logo3 className="logo" ></Logo3>
       </div>
       <motion.div
         className="header__content"

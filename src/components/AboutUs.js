@@ -10,6 +10,7 @@ import customer from '../assets/customer.png';
 import calendar from '../assets/calendar.png';
 import Logo2 from "./subComponents/Logo2";
 import { AppContext } from "./AppContext";
+import Logo3 from "./subComponents/Logo3";
 
 export default function AboutUs() {
   const {len} = useContext(AppContext);
@@ -17,7 +18,7 @@ export default function AboutUs() {
     <section id="about_us">
       <h2 className="section-title flex-center">{len == 'es' ? "Acerca de nosotros" : "About us"}</h2>
       <div className="header__logo flex-center">
-        <Logo2 className="logo_about_us"></Logo2>
+        <Logo3 color='#3b96ff' className="logo_about_us"></Logo3>
       </div>
       <h2 className="about_us_subheader">Hostal Mirkastillito</h2>
       <div className="about_card_container content">
